@@ -1,0 +1,5 @@
+include ':p0061_layouts'
+include ':p0051_layoutfiles'
+include ':p0041basicviews'
+include ':app'
+rootProject.name = "AndroidDev"
