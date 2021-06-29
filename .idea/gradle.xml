@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/p0051_layoutfiles" />
             <option value="$PROJECT_DIR$/p0061_layouts" />
             <option value="$PROJECT_DIR$/p0071_layoutprop" />
+            <option value="$PROJECT_DIR$/p0081_viewbyid" />
           </set>
         </option>
       </GradleProjectSettings>
