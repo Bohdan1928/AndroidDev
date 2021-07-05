@@ -2,10 +2,7 @@ package com.example.p0171_dynamiclayout2;
 
 import android.view.Gravity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.RadioGroup;
+import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -53,12 +50,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         btnGravity = Gravity.CENTER;
                         break;
                 }
-
                 lParams.gravity = btnGravity;
+
                 Button btnNew = new Button(this);
                 btnNew.setText(etName.getText().toString());
                 llMain.addView(btnNew, lParams);
                 break;
+
+            case R.id.btnClear:
+                llMain.removeAllViews();
+                Toast.makeText(this,"Removed", Toast.LENGTH_LONG).show();
+                break;
+
         }
     }
 }
